@@ -1,6 +1,7 @@
-import Nav from './nav'
-import Logo from './logo'
-import Link from 'next/link'
+import Link from "next/link";
+
+import Nav from "./nav";
+import Logo from "./logo";
 
 export default function Header() {
   return (
@@ -78,9 +79,11 @@ export default function Header() {
           </div>
         </div>
         <div className="right">
-          <a href="/login" className="login">login</a>
+          <a className="login" href="/login">
+            login
+          </a>
         </div>
       </header>
     </>
-  )
+  );
 }

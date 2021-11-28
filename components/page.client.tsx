@@ -1,7 +1,7 @@
-import Header from './header'
-import Meta from './meta'
+import Header from "./header";
+import Meta from "./meta";
 
-export default function Page({ children }) {
+export default function Page({children}) {
   return (
     <>
       <style
@@ -32,5 +32,5 @@ export default function Page({ children }) {
         <div className="page">{children}</div>
       </div>
     </>
-  )
+  );
 }

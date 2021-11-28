@@ -2,8 +2,7 @@ export default function Footer() {
   return (
     <div>
       <footer className="footer">
-        Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC |
-        Contact
+        Guidelines | FAQ | Lists | API | Security | Legal | Apply to YC | Contact
       </footer>
 
       <style
@@ -21,5 +20,5 @@ export default function Footer() {
         }}
       />
     </div>
-  )
+  );
 }
